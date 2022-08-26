@@ -1,0 +1,134 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    width:100%;
+    background-image:url(images/WhatsApp\ Image\ 2022-04-15\ at\ 9.05\ 3.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-blend-mode:overlay;
+    background-color:rgba(0,0,0,.6);
+    color:#fff;
+}
+.logo img{
+    width:6%;
+}
+.product{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    justify-content:space-between;
+    width:90%;
+    margin:10px auto;
+    /* background:red; */
+}
+.product img{
+    width:30%;
+}
+.product-text{
+    width:50%;
+}
+.product-text span{
+    text-transform:capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1em;
+}
+.product-text h6{
+    margin:10px auto;
+    text-transform:uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:1.3em;
+}
+.break{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    justify-content:space-between;
+    width:35%;
+    /* background:#943D24; */
+}
+.break p{
+    font-size:1em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.background{
+    width:50%;
+    padding:5px;
+    background:#943D24;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    justify-content:space-between;
+    /* margin-left:40px; */
+}
+.product-word{
+    margin:20px 0 ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:1em;
+    line-height:1.5em;
+    width:80%;
+}
+.product-link{
+    display:block;
+    text-decoration:none;
+    text-transform:capitalize;
+    text-align:center;
+    background:#943D24;
+    padding:10px;
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:0.9em;
+    width:30%;
+}
+
+@media screen and (max-width:750px){
+    .logo img{
+        width:15%;
+    }
+    .product{
+        flex-direction:column;
+        margin:20px auto;
+    }
+    .product img{
+        width:100%;
+    }
+    .product-text{
+        width:90%;
+    }
+    .product-text span{
+        display:block;
+        margin-top:10px;
+    }
+    .product-text h6{
+        font-size:1.5em ;
+    }
+    .break{
+        width:80%;
+    }
+    .background{
+        width:60%;
+        padding:5px;
+        background:#943D24;
+        text-align:center;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        justify-content:space-between;
+        /* flex-direction:column; */
+    }
+    .product-word{
+        width:100%;
+    }
+    .product-link{
+        width:100%;
+    }
+
+
+
+}
+
+

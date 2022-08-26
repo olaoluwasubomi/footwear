@@ -1,0 +1,115 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    width:100%;
+}
+.main-container{
+    background-image:url(images/WhatsApp\ Image\ 2022-04-15\ at\ 9.05\ 3.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.navigation{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:95%;
+    justify-content:space-between;
+    margin:0 auto;
+}
+.navigation img{
+    width:6%;
+}
+.navigation nav{
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    /* justify-content:space-between; */
+    width:100%;
+}
+nav a{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    /* margin:0 auto; */
+    margin-left:20px;
+    text-transform:capitalize;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Luc ida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    transition:border , padding  2s;
+}
+nav a:hover{
+    /* border:none; */
+    /* border:1px solid #000000; */
+    padding:5px;
+    color:#943D24;
+}
+.items{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    justify-content:space-between;
+    width:95%;
+    margin:20px auto 0;
+    flex-wrap:wrap;
+}
+.main-item{
+    width:25;
+    margin:20px auto;   
+}
+.shoe-img{
+    width:100%;
+}
+.item-text{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    justify-content:space-between;
+    width:80%; 
+    margin:0 auto;
+}
+.item-text p{
+    text-transform:uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:0.8em;
+}
+.item-text span{
+    display:block;
+    margin-top:10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:0.8em;
+}
+
+@media screen and (max-width:750px){
+    body{
+        width:100%;
+    }
+    .main-container{
+        background-image:none;
+    }
+    .navigation{
+        width:95%;
+        margin:0 auto;
+    }
+    .navigation img{
+        width:15%;
+    }
+    .navigation nav{
+        text-align:center;
+        width:100%;
+    }
+    nav a{
+        margin-left:5px;
+        font-size:0.9em;
+    }
+    .main-item{
+        width:45%;
+    }
+    .none{
+        display:none;
+    }
+}

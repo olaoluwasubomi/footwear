@@ -1,0 +1,137 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    /* background:red; */
+    width:100%;
+}
+.navigation{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:95%;
+    justify-content:space-between;
+    margin:0 auto;
+}
+.navigation img{
+    width:6%;
+}
+.navigation nav{
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    /* justify-content:space-between; */
+    width:100%;
+}
+nav a{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    /* margin:0 auto; */
+    margin-left:20px;
+    text-transform:capitalize;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Luc ida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    transition:border , padding  2s;
+}
+nav a:hover{
+    /* border:none; */
+    /* border:1px solid #000000; */
+    padding:5px;
+    color:#943D24;
+}
+.contact{
+    margin:10px auto;
+}
+.contact-1{
+    text-align:center;
+}
+.contact-1 h3{
+    text-transform:uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:1.4em;
+    color:#943D24;
+}
+.contact-1 p{
+    width:40%;
+    margin:10px auto 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1em;
+    line-height:1.3em;
+    text-align:center;
+}
+.contact form{
+    margin:10px auto 0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.contact form input{
+    display:block;
+    margin-top:20px;
+    width:30%;
+    padding:10px;
+}
+.contact textarea{
+    padding:10px;
+    width:30%;
+    margin:20px auto 0;
+}
+.submit{
+    display:none;
+    background:#943D24;
+    color:#fff;
+    border:none;
+    text-transform:capitalize;
+    cursor:pointer;
+    /* width:10%; */
+}
+.images{
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.images img{
+    width:5%;
+    overflow: hidden;
+}
+
+@media screen and (max-width:750px){
+    .navigation{
+        width:95%;
+        margin:0 auto;
+    }
+    .navigation img{
+        width:15%;
+    }
+    .navigation nav{
+        text-align:center;
+        width:100%;
+    }
+    nav a{
+        margin-left:5px;
+        font-size:0.9em;
+    }
+    .contact-1 h3{
+        font-size:1em;
+    }
+    .contact-1 p{
+        width:90%;
+        font-size:0.9em;
+    }
+    .contact form input{
+        width:90%;
+    }
+    .contact textarea{
+        width:90%;
+    }
+    .images img{
+        width:10%;
+
+    }
+}
